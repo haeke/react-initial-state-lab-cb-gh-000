@@ -8,6 +8,7 @@ class ImageSlider extends Component {
       currentSlideIndex: 0,
     };
   }
+
   render() {
     <div>
       I am on slide {this.state.currentSlideIndex}
