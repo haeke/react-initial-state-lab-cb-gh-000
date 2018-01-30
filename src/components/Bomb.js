@@ -5,7 +5,7 @@ class Bomber extends Component {
   constructor() {
     super(props);
     this.state = {
-      
+      secondsLeft: 0,
     }
   }
   render() {
