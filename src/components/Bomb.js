@@ -10,7 +10,9 @@ class Bomber extends Component {
   }
   render() {
     return (
-      {this.state.secondsLeft} seconds left before I go Boom!
+      <div>
+        {this.state.secondsLeft} seconds left before I go Boom!
+      </div>
     );
   }
 }
