@@ -12,7 +12,7 @@ class Bomber extends Component {
   render() {
     return (
       <div>
-        {this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go Boom!`}
+        {this.state.secondsLeft === 0 ? 'Boom!' : `${this.props.initialCount} seconds left before I go Boom!`}
       </div>
     );
   }
