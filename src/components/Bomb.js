@@ -8,6 +8,7 @@ class Bomber extends Component {
       secondsLeft: 0,
     }
   }
+
   render() {
     return (
       <div>
